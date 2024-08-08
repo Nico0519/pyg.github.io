@@ -1,0 +1,168 @@
+.shop {
+    height: 639px;
+}
+
+.left_shop {
+    float: left;
+    width: 480px;
+    height: 607px;
+
+}
+
+.hd_left_shop ul li {
+    float: left;
+    font-size: 12px;
+    margin: 26px 0 10px 0;
+}
+
+.hd_left_shop ul li:nth-child(-n+3)::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    padding: 0 17px;
+}
+
+.bd_left_shop .first {
+    border: 1px solid #ededed;
+}
+
+.second {
+    margin: 60px 0 18px 0;
+    height: 58px;
+}
+
+.bd_left_shop .second::before {
+    content: '\e91f';
+    font-family: 'icomoon';
+    font-size: 36px;
+    color: #cccccc;
+}
+
+
+.bd_left_shop .second::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    font-size: 36px;
+    color: #cccccc;
+}
+
+.bianhao ul li {
+    float: left;
+}
+
+.bianhao ul li:nth-child(-n+3) {
+    margin-right: 36px;
+}
+
+.bianhao ul .fx::before {
+    content: '\ea2e';
+    font-family: 'icomoon';
+    color: #cccccc;
+}
+
+.right_shop {
+    float: left;
+    width: 719px;
+    margin-top: 40px;
+}
+
+.right_shop h3 {
+    font-size: 16px;
+    color: #333333;
+}
+
+.right_shop h5 {
+    margin: 16px 0 20px 0;
+    font-size: 12px;
+    color: #e12228;
+}
+
+.much {
+
+    height: 115px;
+    line-height: 25px;
+    background-color: #fee9eb;
+    padding: 11px 10px 26px 10px;
+}
+
+.much ul li p,
+h6,
+i,
+span {
+    display: inline-block;
+
+}
+
+.right_shop h6 {
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+    margin-right: 16px;
+}
+
+.much ul .first {
+    margin-bottom: 15px;
+}
+
+.much ul li .jg {
+    font-size: 24px;
+    color: #e12228;
+}
+
+.much ul li .jj {
+    color: #c81623;
+}
+
+.much ul li .jjg {
+    float: left;
+    color: #ffffff;
+    background-color: #c81623;
+    margin-right: 8px;
+}
+
+.much ul li i {
+    color: #999999;
+}
+
+.much ul li .pj {
+    float: right;
+}
+
+.right_shop .support,
+.arrive {
+    margin: 14px 0 17px 10px;
+}
+
+.right_shop .hs {
+    margin-left: 16px;
+    color: #999999;
+}
+
+.arrive {
+    padding-bottom: 13px;
+    border-bottom: 1px solid #999999;
+}
+
+.choose .ys,
+.bb,
+.rl,
+.fs,
+.tz {
+    width: 719px;
+    height: 34px;
+    margin-bottom: 12px;
+
+}
+
+.choose h6 {
+    margin: 0 14px 0 10px;
+    line-height: 43px;
+}
+
+.choose a {
+    float: left;
+    padding: 9px 18px;
+    margin: 0 8px 7px 0;
+    border: 1px solid #ededed;
+    background-color: #f7f7f7;
+}
